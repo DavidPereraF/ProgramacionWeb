@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Principal.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Ejemplo de validaciones</h1>
+  <hr>
+  <form action="/" method="post">
+    <label for="username">Usuario:</label>
+    <input type="text" name="username" placeholder="Por ejemplo, Juan"
+    minlength="5" maxlength="40" required title="Pro favor teclea un usuario con una longitud entre 5 y 40">
+    <label for="password">Password:</label>
+    <input type="password" name="password" placeholder="Contraseña"
+    minlength="11" required>
+    <br></br>
+
+    <form method="post" action="/send/">
+    Edad:
+    <input type="number" name="age" placeholder="25"
+    min="18" max="60">
+    Fecha de inicio:
+    <input type="date" name="date" placeholder="2024-07-22"
+    min="2024-01-01" max="2024-12-01">
+    </form>
+
+    <br></br>
+    <input type="text" name="username" placeholder="ManzDev"
+    required pattern="[A-Za-z0-9]{5,40}" 
+    tittle="Letras y numeros. tamaño 5-40">
+
+    <label for="numControl">Numero de control:</label>
+    <input type="text" name="numControl" placeholder="Teclea tu numero de ocntrol" minlength="8" maxlength="9" 
+    required pattern="(C|M|D)?[0-9]{})" 
+    tittle="Letras y numeros. tamaño 5-40">
+
+    <br></br>
+    <input type="submit" value="Enviar">
+
+
+
+  </form>
+</body>
+</html>
