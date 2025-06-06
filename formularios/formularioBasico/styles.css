@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+    .login-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 380px;
+    }
+
+    .login-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    }
+
+    .login-group {
+    margin-bottom: 18px;
+    }
+
+    .login-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #555;
+    }
+
+    .login-group input,
+    .login-group select {
+    width: 95%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    }
+
+    .checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 15px;
+    }
+
+    .login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    }
+
+    .login-btn:hover {
+    background-color: #218838;
+    }
+
+    .login-footer {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    }
+
+    .login-footer a {
+    color: #007bff;
+    text-decoration: none;
+    }
+
+    .login-footer a:hover {
+    text-decoration: underline;
+    }
